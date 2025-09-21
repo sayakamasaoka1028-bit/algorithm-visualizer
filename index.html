@@ -1,0 +1,25 @@
+<!DOCTYPE html> <html lang="ja"> <head>
+  <meta charset="UTF-8">
+  <title>ソート可視化</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ソート可視化アプリ</h1>
+
+  <!-- アルゴリズム選択 -->
+  <select id="algorithm">
+    <option value="bubble">バブルソート</option>
+    <option value="selection">選択ソート</option>
+    <option value="insertion">挿入ソート</option>
+  </select>
+
+  <!-- 操作ボタン -->
+  <button id="start">ソート開始</button>
+  <button id="shuffle">ランダム生成</button>
+
+  <!-- 棒グラフ表示 -->
+  <div id="bar-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
